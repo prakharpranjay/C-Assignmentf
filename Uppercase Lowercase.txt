@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    char ch;
+    printf("Enter A Character");
+    scanf("%c",&ch);
+    
+    if(ch>= 'A' && ch<= 'Z')
+    {
+        printf("Charachter Is Uppercase");
+    }
+    else if (ch<='a' && ch <='z')
+    {
+        printf("Charachter Is Lowercase");
+    
+    }
+    else 
+    {
+        printf("Character Is Special Character");
+    }
+}

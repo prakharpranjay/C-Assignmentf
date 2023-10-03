@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    float pri, roi, tenu, si;
+
+    printf("enter principle");
+    scanf("%f", &pri);
+    
+    printf("enter rate of intrest");
+    scanf("%f", &roi);
+
+    printf("enter tenu");
+    scanf("%f", &tenu);
+    
+    si= (pri*roi*tenu)/100;
+    
+    printf("Simple Interst, %f", si);
+     
+     
+}
